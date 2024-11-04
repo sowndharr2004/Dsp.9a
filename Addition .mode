@@ -1,0 +1,33 @@
+INPI SET OH
+
+INP2 SET IH
+
+OUT SET 2H
+
+.mmregs
+
+.text
+
+START:
+
+LD #140H,DP
+
+RSBX CPL
+
+NOP
+
+و
+
+NOP
+
+NOP
+
+NOP
+
+LD INPI,A
+
+ADD INP2,A
+
+STL A,OUT
+
+HLT: BHLT
